@@ -77,7 +77,6 @@ const handleAddGeotiffLayer = () => {
       <LayersControl.BaseLayer name="Satellite">
         <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" />
       </LayersControl.BaseLayer>
-      {/* Add more base layers as needed */}
     </LayersControl>
     <div style={{ position: 'absolute', top: '10px', right: '150px', zIndex: '1000' }}>
           <input type="text" value={wmsLink} onChange={handleInputChange} placeholder="Enter WMS URL" />
