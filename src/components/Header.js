@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
   return (
     <header style={{ backgroundColor: '#9fb6cd', textAlign: 'center' }}>
-      <h3>Web GIS App</h3>
+      <h3>YGDMapp</h3>
     </header>
   );
 };
